@@ -41,7 +41,7 @@ This is my personal portfolio website, showcasing my skills, projects, and conta
 ## 📬 Contact
 
 - **Email:** sankrutisoni809@gmail.com  
-- **Phone:** +91 8485027287  
+- **Phone:** +91
 - **LinkedIn:** [sanskrutisoni3009](https://www.linkedin.com/in/sanskrutisoni3009)  
 - **GitHub:** [san-soni30](https://github.com/san-soni30)  
 
