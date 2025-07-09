@@ -4,19 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanskruti Soni - Portfolio</title>
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap-custom.css">
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
   </head>
   <body>
     <!-- Navbar start -->
@@ -51,9 +46,11 @@
             </li>
           </ul>
         </div>
+        <button id="themeToggleBtn" class="btn btn-outline-edm ms-4">
+          <i class="fas fa-sun"></i>
+        </button>
       </div>
     </nav>
-
     <!-- Navbar end -->
 
     <!-- Hero start -->
@@ -76,14 +73,13 @@
           </div>
           <div class="col-lg-6 text-center">
             <div class="hero-image-wrapper">
-              <img src="images/image.png" alt="Profile Image"
+              <img id="heroImage" src="images/image.png" alt="Profile Image"
                 class="img-fluid rounded-circle glow-img">
             </div>
           </div>
         </div>
       </div>
     </header>
-
     <!-- Hero end -->
 
     <!-- About Me start -->
@@ -93,11 +89,7 @@
           <div class="col-md-12">
             <h2 class="techno-heading mb-3">About Me</h2>
             <p class="mb-5" style="text-align: justify;">
-              I'm a passionate web developer with a solid foundation in HTML,
-              CSS, JavaScript and PHP, seeking a full-time role where I can
-              apply my problem-solving, time management, and communication
-              skills. I’m eager to grow professionally and contribute to
-              dynamic, user-focused web projects that drive real impact.
+              I’m a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and PHP. I bring excellent problem-solving, time management, and communication skills to the table. I thrive in building user-focused web experiences and enjoy contributing to meaningful, high-impact projects while continuously growing as a professional.
             </p>
             <div class="row text-center">
               <div class="col-md-6 mb-4">
@@ -226,13 +218,13 @@
             <div class="project-card">
               <div class="techno-card text-center w-100">
                 <i class="fas fa-sticky-note fa-3x mb-3 techno-icon"></i>
-                <h3 class="h4 mb-3">myNotes</h3>
+                <h3 class="h4 mb-3">MyNotes</h3>
                 <ul style="text-align: justify;">
                   <li>A secure note-taking app with JWT-based
                     authentication.</li>
                   <li>Users can create, update, and delete notes from any
                     device.</li>
-                  <li>Built using React, Node.js, Express, MongoDB, and
+                  <li>Built using React, Node.js, Express.js, MongoDB, and
                     Bootstrap.</li>
                 </ul>
               </div>
@@ -251,15 +243,13 @@
 
           <div class="col-md-6 mb-4">
             <div class="contact-info text-start">
-              <h3 class="mb-3" style="color: #00FFF7;">Let's Connect</h3>
+              <h3 class="mb-3" style="color: #507DBC;">Let's Connect</h3>
               <p><strong>Email:</strong> <a href="mailto:youremail@example.com"
                   class="text-neon">sankrutisoni809@gmail.com</a></p>
               <p class="mb-2"><strong>Phone:</strong><a class="text-neon">+91
                   8485027287</a></p>
               <p><strong>Follow me:</strong></p>
               <div class="d-flex gap-3 mb-3">
-                <a href="https://instagram.com/yourusername" class="text-neon"
-                  target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                 <a href="https://www.linkedin.com/in/sanskrutisoni3009"
                   class="text-neon" target="_blank"><i
                     class="fab fa-linkedin fa-2x"></i></a>
@@ -317,25 +307,7 @@
     </footer>
     <!-- Footer end -->
 
-    <script>
-  window.onscroll = function() {
-    const btn = document.getElementById("moveToTopBtn");
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  };
-
-  // Scroll to top when clicked
-  document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("moveToTopBtn").onclick = function() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-  });
-  
-</script>
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

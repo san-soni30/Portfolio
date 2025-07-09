@@ -14,7 +14,7 @@ This is my personal portfolio website, showcasing my skills, projects, and conta
 - 📬 Functional contact form using Formspree with redirect to thank-you page
 - 📄 Resume download option
 - 🔼 Scroll-to-top button
-- 🎨 Dark mode + neon accent (EDM theme)
+- 🎨 Dark mode + neon accent 
 
 ---
 
@@ -41,7 +41,7 @@ This is my personal portfolio website, showcasing my skills, projects, and conta
 ## 📬 Contact
 
 - **Email:** sankrutisoni809@gmail.com  
-- **Phone:** +91
+- **Phone:** +91 8485027287  
 - **LinkedIn:** [sanskrutisoni3009](https://www.linkedin.com/in/sanskrutisoni3009)  
 - **GitHub:** [san-soni30](https://github.com/san-soni30)  
 
