@@ -218,6 +218,11 @@
   transition: color 0.3s ease;
 }
 
+.techno-card:hover {
+  cursor: pointer;
+  background-color: #111122; /* optional hover tint */
+}
+
 .techno-card:hover .techno-icon {
   color: #507DBC;
 }
