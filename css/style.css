@@ -382,12 +382,10 @@ body.light-mode .techno-icon:hover {
   text-shadow: #507DBC !important;
 }
 
-body.light-mode .btn-edm,
 body.light-mode .techno-btn {
   background-color: #507DBC;
-  color: rgb(39, 38, 38);
+  color: white;
 }
-
 body.light-mode .btn-outline-edm {
   border-color: #507DBC;
   color: #507DBC;
@@ -433,7 +431,7 @@ body.light-mode .techno-hero {
 body.light-mode .hero-text-box {
   background-color: #A1C6EA !important;
   border-color: #507DBC !important;
-  color: #000 !important;
+  color: #0a3874 !important;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) !important;
 }
 
