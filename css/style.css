@@ -220,7 +220,7 @@
 
 .techno-card:hover {
   cursor: pointer;
-  background-color: #111122; /* optional hover tint */
+  background-color: #111122;
 }
 
 .techno-card:hover .techno-icon {
@@ -264,6 +264,25 @@
 
   100% {
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 767px) {
+  .project-carousel-wrapper {
+    overflow-x: unset;
+    width: 100%;
+  }
+
+  .project-carousel-track {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: none;
+    padding-bottom: 1rem;
+  }
+
+  .project-card {
+    width: 100%;
   }
 }
 
